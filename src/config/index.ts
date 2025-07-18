@@ -1,97 +1,96 @@
 import type { SiteConfig, SiteContent } from "../types";
 
 export const SITE_CONFIG: SiteConfig = {
-  title: "Alejandro Múnez — Mobile & Web Developer",
-  author: "Alejandro Múnez Cuntez",
+  title: "Miguel Alejandro González Fernández — Desarrollador Java FullStack",
+  author: "Miguel Alejandro González Fernández",
   description:
-    "Software Engineer based in San Francisco, USA. I specialize in UI design, web and mobile application development and maintenance.",
+    "Desarrollador Java FullStack Junior, poseo experiencia y conocimientos en Java, JavaScript, Python, Bases de datos, Metologias Agile y Trabajo colaborativo con Git.",
   lang: "en",
-  siteLogo: "/alejandro-small.jpg",
+  siteLogo: "/portada_mini.jpg",
   navLinks: [
-    { text: "Experience", href: "#experience" },
-    { text: "Projects", href: "#projects" },
-    { text: "About", href: "#about" },
+    { text: "Experiencia", href: "#experience" },
+    { text: "Proyectos", href: "#projects" },
+    { text: "Sobre mi", href: "#about" },
   ],
   socialLinks: [
-    { text: "Twitter", href: "https://github.com/immois/astro-zen" },
-    { text: "LinkedIn", href: "https://github.com/immois/astro-zen" },
-    { text: "Github", href: "https://github.com/immois/astro-zen" },
-    { text: "Youtube", href: "https://github.com/immois/astro-zen" },
-    { text: "Dribbble", href: "https://github.com/immois/astro-zen" },
+    { text: "LinkedIn", href: "https://www.linkedin.com/in/miguelglzfz" },
+    { text: "Github", href: "https://github.com/maelex" },
   ],
   socialImage: "/zen-og.png",
-  canonicalURL: "https://astro-zen.vercel.app",
+  canonicalURL: "https://maelex.github.io/miguelglezf.github.io/",
 };
 
 export const SITE_CONTENT: SiteContent = {
   hero: {
-    name: "Alejandro Múnez",
-    specialty: "Mobile & Web Developer",
+    name: "Miguel González",
+    specialty: "Desarrollador Java FullStack",
     summary:
-      "Developer based in San Francisco, USA. I specialize in UI design, web and mobile application development and maintenance.",
-    email: "example@email.com",
+      "Desarrollador Java FullStack Junior, poseo experiencia en Java, JavaScript, Python, Bases de datos, Metologias Agile y Trabajo colaborativo con Git.",
+    email: "miguel-aelex005@hotmail.com",
   },
   experience: [
     {
-      company: "Zalmart",
-      position: "Lead Android Developer",
-      startDate: "May 2018",
-      endDate: "Sept 2020",
+      company: "TATA Consultancy Services",
+      position: "Service Desk",
+      startDate: "Noviembre 2021",
+      endDate: "Enero 2023",
       summary: [
-        "Implemented advanced memory management and code optimization techniques, resulting in a reduction in application load time by 40% and a decrease in crashes by 25%. This significantly improved user experience and increased user retention by 20%.",
-        "I led a team of developers in building and integrating new features using Jetpack Android components such as LiveData and ViewModel. This enabled us to build scalable and maintainable applications, reducing the crash rate by 20% and speeding up the time to delivery of new features by 15%.",
-        "Integrated Google Pay for in-app purchases, resulting in a 35% increase in mobile transaction revenue. Additionally, implemented Firebase Analytics to gain insights into user behavior, enabling data-driven optimizations and a 30% increase in user retention.",
+        "Proporcioné atención a usuarios con problemas y/o consultas técnicas relacionadas a las diferentes aplicaciones utilizadas",
+        "Diagnostiqué y resolví de problemas técnicos reportados por los usuarios.",
+        "Documenté cada problema reportado para contribuir a una base de conocimiento útil para futuras incidencias.",
+        "Escalé tickets a equipos de soporte técnico de nivel superior (L2) cuando era casos prioritarios.",
+        "Brindé seguimiento constante a los usuarios para asegurar el cumplimiento de los SLA´s",
       ],
     },
     {
-      company: "Bankit",
-      position: "Mobile Developer",
-      startDate: "Feb 2017",
-      endDate: "May 2018",
+      company: "Papelería Lupita",
+      position: "Técnico en informática",
+      startDate: "Febrero 2021",
+      endDate: "Junio 2021",
       summary: [
-        "I designed and developed a mobile application using Flutter, allowing it to be deployed on both Android and iOS with a single codebase. This reduced development time by 50% and maintenance costs by 30%, facilitating a consistent user experience on both platforms.",
-        "I integrated biometric authentication and data encryption, significantly improving the security of user data. This implementation resulted in a 40% increase in user trust and a 25% reduction in unauthorized access attempts.",
+        "Llevé a cabo el mantenimiento correctivo y preventivo al hardware utilizado como PC´s, impresoras, escáners etc.",
+        "Gestioné la instalación y actualización de software tales como Sistema operativo, Microsoft Office, Antivirus, editor de vídeo y drivers etc.",
+        "Desarrollé el sitio web de la empresa utilizando HTML, CSS y JavaScript para modernizar la imagen del negocio.",
+        "Desplegué la pagina web del negocio en un servidor en linea, fortaleciendo la marca del negocio.",
       ],
     },
     {
-      company: "Driveer",
-      position: "Frontend Developer",
-      startDate: "Jun 2015",
-      endDate: "Oct 2016",
-      summary:
-        "Developed and integrated a real-time vehicle tracking system using WebSockets, improving accuracy and data update in the application. This functionality increased user satisfaction by 30% and reduced customer service inquiries by 25%.",
+      company: "Software Insights",
+      position: "Desarrollador Web Junior",
+      startDate: "Febrero 2018",
+      endDate: "Junio 2018",
+      summary:[
+          "Desarrollé fragmentos de código HTML y CSS para ser utilizado en sitios web de negocios locales.",
+          "Corregí errores en proyectos ya existentes empleando HTML, CSS, JavaScript y PHP.",
+      ] 
     },
   ],
   projects: [
     {
-      name: "Spotifu Music",
-      summary: "A music streaming app that emulates Spotify's core features.",
+      name: "Repairman",
+      summary: "Plataforma e-commerce para la venta, compra y reparación de smartphones, fue creado utilizando Java, Spring Boot, MySQL, HTML, CSS y JavaScript.",
       linkPreview: "/",
-      linkSource: "https://github.com/immois/astro-zen",
-      image: "/spotifu.png",
+      linkSource: "https://github.com/alamdominic/repairman",
+      image: "/App19.jpg",
     },
     {
-      name: "Shopp App",
-      summary: "An e-commerce platform that replicates Shopify's key features.",
+      name: "Plataforma EVA",
+      summary: "Herramienta de apoyo para agilizar y mejorar el proceso de obtencion de datos estadisticos en beneficio de estudiantes y profesores del Centro Univeristario del Sur (CUSur)",
       linkPreview: "/",
-      linkSource: "https://github.com/immois/astro-zen",
-      image: "/shopify-clon.png",
+      linkSource: "https://github.com/maelex/Plataforma-EVA-2016",
+      image: "/App21.jpg",
     },
     {
-      name: "ClonTagram",
-      summary: "A social network that replicates the features of Instagram",
-      linkPreview: "/",
-      linkSource: "https://github.com/immois/astro-zen",
-      image: "/clone-ig.png",
+      name: "Centro de Monitoreo Activo Laguna",
+      summary: "Sistema para el monitoreo de la Laguna de Zapotlan el Grande Jalisco, para  preservación y conservación del ecosistema de la misma.",
+      image: "/App18.jpg",
     },
   ],
   about: {
     description: `
-      Hi, I’m Alejandro Múnez, a passionate Mobile and Web Developer with a knack for crafting seamless digital experiences. With a strong background in both Android and iOS development, as well as front-end web technologies, I thrive in the intersection where creativity meets technology.
-
-      Over the years, I’ve honed my skills in building robust, user-friendly applications that not only meet the needs of users but also push the boundaries of what’s possible. My projects range from innovative mobile applications to responsive web designs, all with a focus on performance, security, and scalability.
+      Hola, Soy Miguel Alejandro, Desarrollador Java Full Stack, capaz de participar en proyectos que requieran compromiso para lograr los objetivos trazados, poseo experiencia y conocimientos en Java, JavaScript, Python, Bases de datos, PHP, Linux y Soporte IT. Día a día busco impulsar el éxito de proyectos importantes e innovadores.
     `,
-    image: "/alejandro-big.jpg",
+    image: "/portada.jpg",
   },
 };
 

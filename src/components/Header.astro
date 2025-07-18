@@ -9,7 +9,8 @@ const { siteLogo, navLinks } = Astro.props;
 ---
 
 <header
-  class="sticky top-0 z-50 mx-auto flex max-w-5xl animate-slide-in justify-between bg-black px-5 py-6"
+  class="sticky top-0 z-50 w-full mx-auto flex max-w-5xl justify-between
+         bg-black/40   backdrop-blur-sm shadow-lg     px-5 py-6"
 >
   <a href="/" aria-label="Home link">
     <Image
@@ -102,10 +103,3 @@ const { siteLogo, navLinks } = Astro.props;
     }
   };
 </script>
-
-<style>
-  header {
-    animation-timeline: scroll();
-    animation-range: 0 650px;
-  }
-</style>

@@ -10,10 +10,12 @@ interface Props {
 const { projects } = Astro.props;
 ---
 
-<Section text="Featured Projects" href="projects">
+<Section text="Proyectos" href="projects">
   {
     projects.map(({ name, summary, image, linkPreview, linkSource }, index) => {
       const top = 98 + index * 40;
+      const isLastProject = index === projects.length - 1;
+
       return (
         <div
           style={`top: ${top}px;`}
@@ -26,25 +28,20 @@ const { projects } = Astro.props;
               </h3>
               <p class="text-base text-neutral">{summary}</p>
               <div class="flex gap-5 pt-10 text-white">
-                <a
-                  href={linkSource}
-                  target="_blank"
-                  class="after:relative after:bottom-[-5px] after:content-[url(/external.svg)] hover:underline"
-                >
-                  Source
-                </a>
-                <a
-                  href={linkPreview}
-                  target="_blank"
-                  class="after:relative after:bottom-[-5px] after:content-[url(/external.svg)] hover:underline"
-                >
-                  Preview
-                </a>
-              </div>
+                {!isLastProject && (
+                  <a
+                    href={linkSource}
+                    target="_blank"
+                    class="after:relative after:bottom-[-5px] after:content-[url(/external.svg)] hover:underline"
+                  >
+                    Código fuente
+                  </a>
+                )}
+                </div>
             </div>
             <div class="flex items-end justify-end overflow-hidden">
               <Image
-                class="h-full w-[95%] rounded-ss-xl rounded-ee-2xl object-none object-left-top sm:h-[85%] sm:w-full"
+                class="h-64 sm:h-[85%] w-full rounded-ss-xl rounded-ee-2xl object-cover object-center sm:object-none sm:object-left-top"
                 src={image}
                 alt={name}
                 width="736"
