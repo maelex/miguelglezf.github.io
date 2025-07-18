@@ -6,7 +6,7 @@ export const SITE_CONFIG: SiteConfig = {
   description:
     "Desarrollador Java FullStack Junior, poseo experiencia y conocimientos en Java, JavaScript, Python, Bases de datos, Metologias Agile y Trabajo colaborativo con Git.",
   lang: "en",
-  siteLogo: "/portada_mini.jpg",
+  siteLogo: "/miguelglezf.github.io/portada_mini.jpg",
   navLinks: [
     { text: "Experiencia", href: "#experience" },
     { text: "Proyectos", href: "#projects" },
@@ -71,26 +71,26 @@ export const SITE_CONTENT: SiteContent = {
       summary: "Plataforma e-commerce para la venta, compra y reparación de smartphones, fue creado utilizando Java, Spring Boot, MySQL, HTML, CSS y JavaScript.",
       linkPreview: "/",
       linkSource: "https://github.com/alamdominic/repairman",
-      image: "/App19.jpg",
+      image: "/miguelglezf.github.io/App19.jpg",
     },
     {
       name: "Plataforma EVA",
       summary: "Herramienta de apoyo para agilizar y mejorar el proceso de obtencion de datos estadisticos en beneficio de estudiantes y profesores del Centro Univeristario del Sur (CUSur)",
       linkPreview: "/",
       linkSource: "https://github.com/maelex/Plataforma-EVA-2016",
-      image: "/App21.jpg",
+      image: "/miguelglezf.github.io/App21.jpg",
     },
     {
       name: "Centro de Monitoreo Activo Laguna",
       summary: "Sistema para el monitoreo de la Laguna de Zapotlan el Grande Jalisco, para  preservación y conservación del ecosistema de la misma.",
-      image: "/App18.jpg",
+      image: "/miguelglezf.github.io/App18.jpg",
     },
   ],
   about: {
     description: `
       Hola, Soy Miguel Alejandro, Desarrollador Java Full Stack, capaz de participar en proyectos que requieran compromiso para lograr los objetivos trazados, poseo experiencia y conocimientos en Java, JavaScript, Python, Bases de datos, PHP, Linux y Soporte IT. Día a día busco impulsar el éxito de proyectos importantes e innovadores.
     `,
-    image: "/portada.jpg",
+    image: "/miguelglezf.github.io/portada.jpg",
   },
 };
 
